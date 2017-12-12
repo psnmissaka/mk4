@@ -2,8 +2,8 @@ _ = require("lodash");
 var Scorpion;
 var LiuKang;
 
-const attack = (enemyArmorBonus, enemySkill, rollDice, strength, _) => {
-  var roll = rollDice(1, 20);
+const attack = (enemyArmorBonus, enemySkill, rollDice, strength) => {
+  var roll = rollDice;
   roll += strength;
   var warriorPoints = _.clamp(roll, 1, 25);
   var enemyPower = 10 + enemyArmorBonus + enemySkill;
@@ -99,3 +99,8 @@ fight = () => {
 
 setUpWarriors();
 fight();
+
+module.exports = {
+  Warrior : Warrior,
+  attack : attack
+}

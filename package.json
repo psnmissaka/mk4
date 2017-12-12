@@ -5,7 +5,7 @@
   "main": "game.js",
   "scripts": {
     "test": "mocha game.test.js",
-    "coverage": "istanbul cover _mocha game.test.js -x *.test.js",
+    "coverage": "nyc mocha game.test.js -x *.test.js",
     "report": "open ./coverage/lcov-report/index.html"
   },
   "keywords": [],
