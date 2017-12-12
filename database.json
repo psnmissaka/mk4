@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Goro",
+    "skill": 10
+  },
+  {
+    "name": "Scorpion",
+    "skill": 5
+  },
+  {
+    "name": "Lui Kang",
+    "skill": 6
+  },
+  {
+    "name": "Sonia",
+    "skill": 5
+  },
+  {
+    "name": "Jax",
+    "skill": 7
+  },
+  {
+    "name": "Radon",
+    "skill": 9
+  },
+  {
+    "name": "Quen Chi",
+    "skill": 8
+  }
+]
